@@ -1,56 +1,51 @@
 body {
-    background: black;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    letter-spacing: 2px;
+	text-align: center;
+	background-color: #F5F5F5;
 }
 
-img {
-    border-radius: 50%;
-  }
+h3 {
+	color: #1b1c1c;
+	font-family: 'Montserrat';
+	font-size: 27px;
+}
 
-.profile-picture {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-    height: auto;
-    max-width: 100px;
-  }
-
-.profile-name {
-      text-align: center;
-      padding: 30px;
-  }
-
-.links {
-      text-align: center;
-      margin-top: 20px;
-      padding: 20px;
-      border: 1px solid white;
-      border-width: 2px;
-      width: 290px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      border-radius: 40px;
-  }
+img.pfp {
+	width: 140px;
+	border-radius: 100px;
+}
 
 a {
-    text-decoration: none;
-    color: white;
-    transition: color 1s;
-}
+	background: #232323;
+	padding: 20px;
+	text-align: center;
+	align-items: center;
+	text-decoration: none;
+	width: 520px;
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 17px;
+	border: 1px solid #1f1f1f;
+	display: inline-block;
+	border-radius: 2rem;
 
-.bottom-text {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 20px;
-    font-weight: bold;
 }
 
 a:hover {
-    color: #000;
-    background: #fff;
+	background: #F5F5F5;
+	color: #1b1c1c;
+	transition: 0.3s;
+}
+
+p {
+	padding: 15px;
+	text-align: center;
+	align-items: center;
+	text-decoration: none;
+	width: 200px;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	border-bottom: 4px solid red;
+	margin: 1rem auto;
+
 }
